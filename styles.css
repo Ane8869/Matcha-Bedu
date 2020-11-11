@@ -1,18 +1,24 @@
 h1 {
   color: #025157;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
-  font-weight: bolder;
-  font-size: 50px;
+  font-family: "Alegreya", serif;
+  font-size: 60px;
+  margin-bottom: 24px;
   
 }
 
 h4 {
   text-align: center;
+  color: #46484c;
+  font-family: "Slabo 27px", serif;
+  font-size: 20px;
+  margin-bottom: 30px;
 }
 
-h5 {
-  text-align: center;
+
+p {
+  color: #8b8b8bcc;
+  margin-top: 15px;
 }
 
 form {
@@ -21,13 +27,78 @@ form {
 
 body {
   background-color: #fffbf7;
+  margin: 0;
 }
 
-button {
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.center{
+  text-align: center;
+}
+
+
+.header {
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 0;
+}
+
+.header > * {
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: middle;
+  height: 100%;
+  line-height: 45px;
+}
+
+li {
+  display: inline;
+}
+
+form.signup-form {
+  font-size: 14px;
+}
+
+form.signup-form button {
+  width: 10%;
+  background-color: #025157;
+  color: #fffbf7;
+  border: none;
+  border-top-left-radius: 5;
+  border-bottom-left-radius: 5;
+  padding: 5px
+}
+
+form.signup-form input {
+  width: 40%;
+}
+
+.navbar {
+  width: 70%;
+  text-align: center;
   color: #025157;
+  font-weight: 500;
 }
 
-img  {
-  border-color: 5px crimson;
+.logo > img {
+  height: 100%;
+}
+
+.logo {
+  width: 15%;
+}
+
+.actions {
+  width: 15%;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 600;
 
 }
+
+
